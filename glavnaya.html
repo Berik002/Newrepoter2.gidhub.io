@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NewReporter - Главная</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f8f8f8;
+    }
+    header {
+      background: #1a1a1a;
+      color: white;
+      padding: 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #ddd;
+      margin-right: 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover,
+    nav a.active {
+      color: white;
+      border-bottom: 2px solid white;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 0 15px;
+    }
+    .main-article {
+      background: white;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .main-article img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .main-article h2 {
+      margin-top: 15px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+    .article {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+    .article img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .article h3 {
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    footer {
+      background: #222;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>NewReporter</h1>
+    <nav>
+      <a href="index.html" class="active">Главная</a>
+      <a href="webinars.html">Вебинары</a>
+      <a href="podcasts.html">Подкасты</a>
+      <a href="about.html">О проекте</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="main-article">
+      <img src="1.png" alt="Цифровизация в СКО">
+      <h2>СКО запускает пилотную платформу «Цифровое село» в районе Г. Мусрепова</h2>
+      <p>Цифровые киоски, Wi-Fi-зоны и электронные госуслуги появятся в восьми сёлах уже до конца года. Платформа включает ИИ-консультанта и доступ к eGov.kz. Власти обещают масштабирование проекта при успешной апробации.</p>
+    </div>
+
+    <div class="grid">
+      <div class="article">
+        <img src="https://placehold.co/400x200?text=Education" alt="">
+        <h3>В Петропавловске открылся IT-лицей с робототехникой</h3>
+        <p>Новое учебное заведение примет 300 учеников. В программу входят Python, робототехника, проектная работа и цифровая грамотность. Первоклассники уже создают свои первые алгоритмы.</p>
+      </div>
+
+      <div class="article">
+        <img src="https://placehold.co/400x200?text=Infrastructure" alt="">
+        <h3>В СКО завершена реконструкция трассы «Кызылжар – Булаево»</h3>
+        <p>Дорога протяжённостью 86 км стала четырехполосной. Введены системы освещения и видеонаблюдения. Новый маршрут сократит время в пути и повысит безопасность движения.</p>
+      </div>
+
+      <div class="article">
+        <img src="https://placehold.co/400x200?text=Safety" alt="">
+        <h3>СКО усиливает меры по пожарной безопасности на складах</h3>
+        <p>После серии происшествий в мае, в Петропавловске внедряют систему раннего оповещения с IoT-датчиками температуры и дыма. Мониторинг в реальном времени позволит сократить время реагирования МЧС.</p>
+      </div>
+
+      <div class="article">
+        <img src="https://placehold.co/400x200?text=Agriculture" alt="">
+        <h3>Фермеры СКО внедряют дроны для мониторинга посевов</h3>
+        <p>Сельхозкооперативы начали использовать БПЛА для анализа состояния почв и автоматической посадки семян. Ожидается повышение урожайности на 20%.</p>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 NewReporter | Все права защищены</p>
+  </footer>
+
+</body>
+</html>
